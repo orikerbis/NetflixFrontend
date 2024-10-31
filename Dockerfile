@@ -18,7 +18,6 @@ RUN npm run build
 
 # Set environment variable for the Movie Catalog API
 # You can override this at runtime with Docker's -e flag or in a docker-compose file.
-ENV MOVIE_CATALOG_SERVICE=http://localhost:8080
 
 # Expose the port that the Next.js app will run on (usually 3000)
 EXPOSE 3000
